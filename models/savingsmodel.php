@@ -8,8 +8,6 @@ $userId = $_SESSION['id'];
 // Create instance of SavingsController
 $controller = new SavingsController($userId);
 
-// Check if form is submitted and action is set
-// Check if form is submitted and action is set
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action'])) {
     // Get savings ID
     $savingsId = $controller->getSavingsId();
