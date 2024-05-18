@@ -1,7 +1,4 @@
-<?php
-// registrationmodel.php
-
-// Include the database connection file
+<?php 
 include_once('config.php');
 
 class RegistrationModel {
